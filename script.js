@@ -5,13 +5,11 @@ $(window).on('scroll', function() {
 function parallaxScroll() {
   var scrolled = $(window).scrollTop();
 
-  // Parallax layers
   $('.layer-1').css('top', (0 - scrolled * 0.1) + 'px');
   $('.layer-2').css('top', (0 - scrolled * 0.3) + 'px');
   $('.layer-3').css('top', (0 - scrolled * 0.5) + 'px');
   $('.layer-4').css('top', (0 - scrolled * 0.8) + 'px');
 
-  // Planets (move wrapper)
   $('.planet-1').css('top', (1000 - scrolled * 0.9) + 'px');
   $('.planet-2').css('top', (1400 - scrolled * 0.7) + 'px');
   $('.planet-3').css('top', (1800 - scrolled * 0.5) + 'px');
