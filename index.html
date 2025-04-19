@@ -1,64 +1,50 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Shoe Card – Double Spin Flip</title>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="index.css">
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Through Space</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="wrapper">
-    <div class="card">
-      <input type="checkbox" id="card1" class="more" aria-hidden="true">
-      <div class="content">
-        <div class="front" style="background-image: url('https://www.iconsofsurf.com/cdn/shop/files/slipblack_1.jpg?v=1693309046');">
-          <div class="inner">
-            <h2>Classic Vans</h2>
-            <div class="rating">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="far fa-star"></i>
-            </div>
-            <label for="card1" class="button" aria-hidden="true">Details</label>
-          </div>
-        </div>
-        <div class="back">
-          <div class="inner">
-            <div class="location">Classic Vans</div>
-            <div class="price">79€</div>
-            <div class="info">
-              <span>6-12</span>
-              <div class="icon">
-                <i class="fas fa-ruler-combined"></i>
-                <span>Sizes</span>
-              </div>
-            </div>
-            <div class="info">
-              <span>W/B</span>
-              <div class="icon">
-                <i class="fas fa-palette"></i>
-                <span>Color</span>
-              </div>
-            </div>
-            <div class="info">
-              <span>Lthr</span>
-              <div class="icon">
-                <i class="fas fa-cube"></i>
-                <span>Material</span>
-              </div>
-            </div>
-            <div class="description">
-              Timeless design meets modern comfort. Perfect for everyday wear. Crafted with premium materials for durability and style.
-            </div>
-            <label for="card1" class="button return" aria-hidden="true">
-              <i class="fas fa-arrow-left"></i>
-            </label>
-          </div>
-        </div>
-      </div>
+  <div class="container">
+    <div class="background">
+      <div class="layer layer-1"></div>
+      <div class="layer layer-2"></div>
+      <div class="layer layer-3"></div>
+      <div class="layer layer-4"></div>
+    </div>
+
+    <div class="content">
+        <h2>The Solar System</h2>
+      <div class="text">
+        <p>
+            The Solar System is a majestic collection of worlds, each orbiting our brilliant star — the Sun. At its heart, the Sun radiates light and heat, sustaining life and driving the rhythms of the planets that surround it.
+          </p>
+          <p>
+            Closest to the Sun is <strong>Mercury</strong>, a scorched, cratered world that spins slowly through extreme temperatures. <strong>Venus</strong>, blanketed by thick clouds, shines brightly in our sky but hides a surface hot enough to melt lead. <strong>Earth</strong>, our home, is the only known planet to support life, with oceans, continents, and a delicate atmosphere.
+          </p>
+          <p>
+            Just beyond lies <strong>Mars</strong>, the red planet, with vast deserts and the largest volcano in the solar system. <strong>Jupiter</strong>, the giant, dwarfs all other planets with its swirling storms and dozens of moons. <strong>Saturn</strong> captivates with its iconic rings — icy, elegant, and enormous.
+          </p>
+          <p>
+            The outer planets, <strong>Uranus</strong> and <strong>Neptune</strong>, are cold and distant. Uranus spins on its side with a bluish glow, while Neptune howls with supersonic winds, guarding the edges of our cosmic neighborhood.
+          </p>      </div>
+
+      <!-- Planets with labels -->
+      <div class="planet-wrapper planet-1"><img src="https://nineplanets.org/wp-content/uploads/2020/03/sun.png"><div class="label">Sun</div></div>
+      <div class="planet-wrapper planet-2"><img src="https://nineplanets.org/wp-content/uploads/2020/03/mercury.png"><div class="label">Mercury</div></div>
+      <div class="planet-wrapper planet-3"><img src="https://nineplanets.org/wp-content/uploads/2020/03/venus.png"><div class="label">Venus</div></div>
+      <div class="planet-wrapper planet-4"><img src="https://nineplanets.org/wp-content/uploads/2020/03/earth.png"><div class="label">Earth</div></div>
+      <div class="planet-wrapper planet-5"><img src="https://nineplanets.org/wp-content/uploads/2020/03/mars.png"><div class="label">Mars</div></div>
+      <div class="planet-wrapper planet-6"><img src="https://nineplanets.org/wp-content/uploads/2020/03/jupiter.png"><div class="label">Jupiter</div></div>
+      <div class="planet-wrapper planet-7"><img src="https://nineplanets.org/wp-content/uploads/2020/03/saturn.png"><div class="label">Saturn</div></div>
+      <div class="planet-wrapper planet-8"><img src="https://nineplanets.org/wp-content/uploads/2020/03/uranus.png"><div class="label">Uranus</div></div>
+      <div class="planet-wrapper planet-9"><img src="https://nineplanets.org/wp-content/uploads/2020/03/neptune.png"><div class="label">Neptune</div></div>
     </div>
   </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
